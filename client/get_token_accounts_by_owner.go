@@ -14,7 +14,7 @@ type TokenAmount struct {
 }
 type Info struct {
 	Delegate        string      `json:"delegate"`
-	DelegatedAmount int64       `json:"delegatedAmount"`
+	DelegatedAmount TokenAmount `json:"delegatedAmount"`
 	IsInitialized   bool        `json:"isInitialized"`
 	IsNative        bool        `json:"isNative"`
 	Mint            string      `json:"mint"`
